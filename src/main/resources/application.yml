@@ -6,6 +6,12 @@ spring:
     name: xuegao-call-bot
   profiles:
     active: dev
+logging:
+  file:
+    path: ./logs/${spring.application.name}-${spring.profiles.active}-${server.port}.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
 wx:
   corpId: "ww3b7876425a1b1eaf"
   access-token-url: "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
