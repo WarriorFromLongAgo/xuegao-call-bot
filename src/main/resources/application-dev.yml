@@ -1,6 +1,6 @@
 logging:
   file:
-    path: ./logs/application-${spring.profiles.active}-${server.port}.log
+    path: ./logs/${spring.application.name}}-${spring.profiles.active}-${server.port}.log
   logback:
     rollingpolicy:
       max-file-size: 10MB
