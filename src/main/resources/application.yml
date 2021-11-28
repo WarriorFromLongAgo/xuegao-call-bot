@@ -5,7 +5,7 @@ spring:
     # 这个项目是调用企业微信进行通知的包
     name: xuegao-call-bot
   profiles:
-    active: prd
+    active: dev
 wx:
   corpId: "ww3b7876425a1b1eaf"
   access-token-url: "https://qyapi.weixin.qq.com/cgi-bin/gettoken"

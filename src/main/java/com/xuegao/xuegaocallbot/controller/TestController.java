@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.xuegao.xuegaocallbot.config.MsgRangeUserId;
 import com.xuegao.xuegaocallbot.service.SendApplicationService;
 import com.xuegao.xuegaocallbot.user.UserInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class TestController {
+    private static final Logger log = LoggerFactory.getLogger(TestController.class);
 
     @Autowired
     private SendApplicationService sendApplicationService;
@@ -43,7 +46,7 @@ public class TestController {
 
     @GetMapping("/test2")
     public String test2() {
-
+        log.info("[xuegao-call-bot][TestController][test2][aaaa={}]", JSON.toJSONString(msgRangeUserId));
         return JSON.toJSONString(msgRangeUserId.getUserList());
     }
 }
