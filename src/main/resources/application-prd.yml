@@ -1,0 +1,28 @@
+userId:
+  fjm: fjm
+  xuegao: xuegao
+  wangZiJia: riki
+  lowbB: 93453a7e2045c4eeead4fc21b4d38275
+  a: incubator
+  b: YouDuDeJiangGuo
+  jiu-99: rm-rf
+
+msg-range-user-id:
+  te-shu:
+    user-list:
+      - 93453a7e2045c4eeead4fc21b4d38275
+  he-shu-zao-shui:
+    user-list:
+      - fjm
+      - xuegao
+      - riki
+      - 93453a7e2045c4eeead4fc21b4d38275
+      - incubator
+      - YouDuDeJiangGuo
+      - rm-rf
+chatId:
+  xiMao: XiMao
+  xiMaoName: '理工生陷入云吸猫-健康小助手'
+im:
+  heShuiYunDong: "健康提醒小助手\n大家好，我是本群的“健康提醒小助手”\n一个小时到啦，该休息休息喝喝水，运动运动啦。\n任何时候都要注意身体哦"
+#  tiGang: '健康提醒小助手\n大家好，我是本群的“健康提醒小助手”\n一个小时到啦，该休息休息喝喝水，运动运动啦。'
